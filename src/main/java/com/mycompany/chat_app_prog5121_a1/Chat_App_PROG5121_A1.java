@@ -3,13 +3,28 @@ package com.mycompany.chat_app_prog5121_a1;
 import java.util.Scanner;
 
 public class Chat_App_PROG5121_A1 {
-
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
-        
         System.out.println("WELCOME TO THE CHAT APP.");
-        System.out.println("Please enter username:");
+        
+        // registration 
+        /*
+        name
+        surname
+        password
+        */
+        
+        //login
+        //hide password
+        //add a loop telling the user that they have 3 times to try and log in
+        
+        //Registration
+        System.out.println("Please fill in the following information:");
+        
+        
+        //Login
+        System.out.println("Please enter username.");
         String username = input.nextLine();
         
         System.out.println("Please enter password.");
