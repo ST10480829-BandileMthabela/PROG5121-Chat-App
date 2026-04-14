@@ -25,6 +25,12 @@ private String cellNumber;
     public void setPassword(String password) {
         this.password = password;
     }
+    
+    //conditions fro the username.
+    public boolean checkUsername(String username)
+    {
+    return username.contains("_") && username.length()==5;
+    }
 
 }
 /*
